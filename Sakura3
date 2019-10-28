@@ -1,0 +1,164 @@
+
+
+import  turtle
+import time
+w = turtle.Screen()
+tur = turtle.Turtle()
+w.setup(1000,800,0,0)
+tur.speed(0)
+tur.penup()
+tur.seth(90)
+tur.fd(340)
+tur.seth(0)
+tur.pendown()
+
+tur.speed(5)
+tur.begin_fill()
+tur.fillcolor('red')
+tur.circle(50,30)
+
+for i in range(10):
+    tur.fd(1)
+    tur.left(10)
+
+tur.circle(40,40)
+
+for i in range(6):
+    tur.fd(1)
+    tur.left(3)
+
+tur.circle(80,40)
+
+for i in range(20):
+    tur.fd(0.5)
+    tur.left(5)
+
+tur.circle(80,45)
+
+for i in range(10):
+    tur.fd(2)
+    tur.left(1)
+
+tur.circle(80,25)
+
+for i in range(20):
+    tur.fd(1)
+    tur.left(4)
+
+tur.circle(50,50)
+
+time.sleep(0.1)
+
+tur.circle(120,55)
+
+tur.speed(0)
+
+tur.seth(-90)
+tur.fd(70)
+
+tur.right(150)
+tur.fd(20)
+
+tur.left(140)
+tur.circle(140,90)
+
+tur.left(30)
+tur.circle(160,100)
+
+tur.left(130)
+tur.fd(25)
+
+tur.penup()
+tur.right(150)
+tur.circle(40,80)
+tur.pendown()
+
+tur.left(115)
+tur.fd(60)
+
+tur.penup()
+tur.left(180)
+tur.fd(60)
+tur.pendown()
+
+tur.end_fill()
+
+tur.right(120)
+tur.circle(-50,50)
+tur.circle(-20,90)
+
+tur.speed(1)
+tur.fd(75)
+
+tur.speed(0)
+tur.circle(90,110)
+
+tur.penup()
+tur.left(162)
+tur.fd(185)
+tur.left(170)
+tur.pendown()
+tur.circle(200,10)
+tur.circle(100,40)
+tur.circle(-52,115)
+tur.left(20)
+tur.circle(100,20)
+tur.circle(300,20)
+tur.speed(1)
+tur.fd(250)
+
+tur.penup()
+tur.speed(0)
+tur.left(180)
+tur.fd(250)
+tur.circle(-300,7)
+tur.right(80)
+tur.circle(200,5)
+tur.pendown()
+
+tur.left(60)
+tur.begin_fill()
+tur.fillcolor('green')
+tur.circle(-80,100)
+tur.right(90)
+tur.fd(10)
+tur.left(20)
+tur.circle(-63,127)
+tur.end_fill()
+
+tur.penup()
+tur.left(50)
+tur.fd(20)
+tur.left(180)
+
+tur.pendown()
+tur.circle(200,25)
+
+tur.penup()
+tur.right(150)
+
+tur.fd(180)
+
+tur.right(40)
+tur.pendown()
+tur.begin_fill()
+tur.fillcolor('green')
+tur.circle(-100,80)
+tur.right(150)
+tur.fd(10)
+tur.left(60)
+tur.circle(-80,98)
+tur.end_fill()
+
+tur.penup()
+tur.left(60)
+tur.fd(13)
+tur.left(180)
+
+tur.pendown()
+tur.speed(1)
+tur.circle(-200,23)
+
+
+
+w.exitonclick()
